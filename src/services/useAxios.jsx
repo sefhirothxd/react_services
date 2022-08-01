@@ -18,7 +18,7 @@ export const useAxios = () => {
         console.log(loading);
         setTimeout(() => {
           setLoading(false);
-        }, 2000);
+        }, 1000);
       }
     } catch (error) {
       setError(error);
