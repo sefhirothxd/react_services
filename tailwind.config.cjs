@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'background-alien': "url('./src/assets/fondo.png')",
+        'background-alien':
+          "url('https://res.cloudinary.com/skillien/image/upload/v1659331079/fondo_kka10f.png')",
       },
     },
   },
